@@ -15,3 +15,7 @@ Links: [video demo](https://www.instagram.com/p/C46Qy2LJ8Na/), [live demo](https
 **Mouth Synth** is an interactive audio-visual installation that synthesizes whimsical, surreal sounds in response to a viewer’s facial movements. As the viewer stands before the installation, their head and mouth gestures are captured and processed by a machine-learning-powered program that translates these movements into playful, expressive music.
 
 Viewers are invited to interact, perform, and experiment, making them an integral part of the artwork itself. By centering the mouth as the primary means of interaction, _Mouth Synth_ challenges conventional modes of control, offering a unique and intimate way to shape sound and engage with art.
+
+## Python Port
+
+A ready-to-install Python recreation of the experience lives in [`python_port/`](python_port/). It uses OpenCV, MediaPipe, NumPy, and Pygame to mirror the browser implementation. Read [`docs/python-port-plan.md`](docs/python-port-plan.md) for the architectural overview and [`python_port/README.md`](python_port/README.md) for installation and packaging instructions.
